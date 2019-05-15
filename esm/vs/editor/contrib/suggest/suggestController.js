@@ -413,8 +413,8 @@ var TriggerSuggestAction = /** @class */ (function (_super) {
             precondition: ContextKeyExpr.and(EditorContextKeys.writable, EditorContextKeys.hasCompletionItemProvider),
             kbOpts: {
                 kbExpr: EditorContextKeys.textInputFocus,
-                primary: 2048 /* CtrlCmd */ | 10 /* Space */,
-                mac: { primary: 256 /* WinCtrl */ | 10 /* Space */ },
+                primary: 2048 /* CtrlCmd */ | 42 /* Space */,
+                mac: { primary: 256 /* WinCtrl */ | 42 /* Space */ },
                 weight: 100 /* EditorContrib */
             }
         }) || this;
