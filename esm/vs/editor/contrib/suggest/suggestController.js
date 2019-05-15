@@ -414,7 +414,7 @@ var TriggerSuggestAction = /** @class */ (function (_super) {
             kbOpts: {
                 kbExpr: EditorContextKeys.textInputFocus,
                 primary: 2048 /* CtrlCmd */ | 10 /* Space */,
-                mac: { primary: 256 /* WinCtrl */ | 42 /* Space */ },
+                mac: { primary: 256 /* WinCtrl */ | 10 /* Space */ },
                 weight: 100 /* EditorContrib */
             }
         }) || this;
